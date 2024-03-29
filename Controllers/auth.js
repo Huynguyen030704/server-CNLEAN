@@ -1,11 +1,11 @@
 const User = require("../Models/UserData");
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
-const io = require("socket.io")(http);
-
+// const io = require("socket.io")(http);
+require("dotenv").config();
 // user.controller.js
 
-const SECRET_KEY = "yg8WVGAnsxk5MLRwL6Jf";
+const SECRET_KEY = process.env.SECRET_KEY;
 
 exports.registerUser = async (req, res) => {
   try {
