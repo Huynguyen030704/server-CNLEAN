@@ -5,7 +5,7 @@ const mongoose = require("mongoose");
 require("dotenv").config();
 const authRouter = require("./Routers/Auth")
 
-const connectDB = require("./connectMongo");
+let connectDB = require("./connectMongo");
 
 const app = express();
 app.use(express.json());
