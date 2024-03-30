@@ -6,9 +6,9 @@ const connectDB = async () => {
     //   "mongodb+srv://huynguyen030704:Huynguyen2004@cluster0.xdzqfz6.mongodb.net/CN_LEAN"
     // );
     mongoose.connect(process.env.MONGO_URL, {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
-      useCreateIndex: true,
+      useNewUrlParser: false,
+      useUnifiedTopology: false,
+      useCreateIndex: false,
     });
     console.log("Connect MongoDB");
   } catch (error) {
