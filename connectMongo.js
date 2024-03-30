@@ -5,7 +5,7 @@ const connectDB = async () => {
     // await mongoose.connect(
     //   "mongodb+srv://huynguyen030704:Huynguyen2004@cluster0.xdzqfz6.mongodb.net/CN_LEAN"
     // );
-    await mongoose.connect(process.env.MONGO_URL, {
+    mongoose.connect(process.env.MONGO_URL, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
       useCreateIndex: true,
