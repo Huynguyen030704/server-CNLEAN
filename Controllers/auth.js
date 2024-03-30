@@ -5,7 +5,7 @@ const jwt = require("jsonwebtoken");
 
 // user.controller.js
 
-const SECRET_KEY = "yg8WVGAnsxk5MLRwL6Jf";
+const SECRET_KEY = process.env.SECRET_KEY;
 
 exports.registerUser = async (req, res) => {
   try {
