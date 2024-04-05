@@ -48,11 +48,11 @@ exports.createData = async (req, res) => {
   console.log(selectedAnswers);
   try {
     // Calculate total score
-    const totalScore = results.reduce(
-      (acc, result) => acc + (result.isCorrect ? 1 : 0),
-      0
-    );
-    const newData = new bai1({ name, selectedAnswers, score: totalScore });
+    // const totalScore = results.reduce(
+    //   (acc, result) => acc + (result.isCorrect ? 1 : 0),
+    //   0
+    // );
+    const newData = new bai1({ name, selectedAnswers });
     const savedData = await newData.save();
     console.log(savedData);
     res.status(201).json(savedData);
