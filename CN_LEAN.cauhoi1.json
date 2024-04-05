@@ -1,0 +1,430 @@
+[{
+  "_id": {
+    "$oid": "660ccbf26096c470d6f47d44"
+  },
+  "id": 1,
+  "points":1,
+  "text": "Câu hỏi 1: Sản xuất thừa là gì?",
+  "options": [
+    {
+      "value": "A",
+      "text": "Sản xuất nhiều hơn khách hàng yêu cầu",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "660ccbf26096c470d6f47d45"
+      }
+    },
+    {
+      "value": "B",
+      "text": "Sản xuất sớm hơn khách hàng yêu cầu",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "660ccbf26096c470d6f47d46"
+      }
+    },
+    {
+      "value": "C",
+      "text": "Sản xuất nhanh hơn khách hàng yêu cầu",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "660ccbf26096c470d6f47d47"
+      }
+    },
+    {
+      "value": "D",
+      "text": "Sản xuất nhiều hơn và sớm hơn khách hàng yêu cầu",
+      "isCorrect": true,
+      "_id": {
+        "$oid": "660ccbf26096c470d6f47d48"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "660ccc456096c470d6f47d4a"
+  },
+  "id": 2,
+  "points":1,
+  "text": "Câu 2: Công nhân vận chuyển nguyên phụ liệu, bán thành phẩm từ công đoạn này sang công đoạn khác, là loại lãng phí gì?",
+  "options": [
+    {
+      "value": "A",
+      "text": "Lãng phí di chuyển",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "660ccc456096c470d6f47d4b"
+      }
+    },
+    {
+      "value": "B",
+      "text": "Lãng phí chờ đợi",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "660ccc456096c470d6f47d4c"
+      }
+    },
+    {
+      "value": "C",
+      "text": "Lãng phí vận chuyển",
+      "isCorrect": true,
+      "_id": {
+        "$oid": "660ccc456096c470d6f47d4d"
+      }
+    },
+    {
+      "value": "D",
+      "text": "Lãng phí tồn kho",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "660ccc456096c470d6f47d4e"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "660ccc516096c470d6f47d50"
+  },
+  "id": 3,
+  "points":1,
+  "text": "Câu 3: Lãng phí thao tác thừa là gì?",
+  "options": [
+    {
+      "value": "A",
+      "text": "Công nhân phải xoay chuyển để tìm vị trí may",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "660ccc516096c470d6f47d51"
+      }
+    },
+    {
+      "value": "B",
+      "text": "Công nhân phải với tay lấy hàng",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "660ccc516096c470d6f47d52"
+      }
+    },
+    {
+      "value": "C",
+      "text": "Công nhân phải di chuyển qua lại giữa 2 công đoạn",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "660ccc516096c470d6f47d53"
+      }
+    },
+    {
+      "value": "D",
+      "text": "Cả 3 câu trên đều đúng",
+      "isCorrect": true,
+      "_id": {
+        "$oid": "660ccc516096c470d6f47d54"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "660ccc5d6096c470d6f47d56"
+  },
+  "id": 4,
+  "points":1,
+  "text": "Câu 4: Cách để cải thiện lãng phí theo tác thừa?",
+  "options": [
+    {
+      "value": "A",
+      "text": "Thường xuyên đào tạo, huấn luyện công nhân về các loại lãng phí",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "660ccc5d6096c470d6f47d57"
+      }
+    },
+    {
+      "value": "B",
+      "text": "Sắp xếp sơ đồ chuyền hợp lý",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "660ccc5d6096c470d6f47d58"
+      }
+    },
+    {
+      "value": "C",
+      "text": "Bán thành phẩm khi chuyển từ công đoạn này sang công đoạn khác, cần đặt hợp lý",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "660ccc5d6096c470d6f47d59"
+      }
+    },
+    {
+      "value": "D",
+      "text": "Cả 3 câu trên đều đúng",
+      "isCorrect": true,
+      "_id": {
+        "$oid": "660ccc5d6096c470d6f47d5a"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "660ccc6a6096c470d6f47d5c"
+  },
+  "id": 5,
+  "points":1,
+  "text": "Câu 5: Các nguyên nhân gây ra lỗi hàng",
+  "options": [
+    {
+      "value": "A",
+      "text": "Do tay nghề công nhân chưa cáo",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "660ccc6a6096c470d6f47d5d"
+      }
+    },
+    {
+      "value": "B",
+      "text": "Do tiêu chuẩn chưa được truyền đạt tốt",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "660ccc6a6096c470d6f47d5e"
+      }
+    },
+    {
+      "value": "C",
+      "text": "Do may nhanh mà thiếu sự kiểm tra",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "660ccc6a6096c470d6f47d5f"
+      }
+    },
+    {
+      "value": "D",
+      "text": "Cả 3 câu trên đều đúng",
+      "isCorrect": true,
+      "_id": {
+        "$oid": "660ccc6a6096c470d6f47d60"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "660ccc736096c470d6f47d62"
+  },
+  "id": 6,
+  "points":1,
+  "text": "Câu 6: Lãng phí nào sau đây là lãng phí công đoạn thừa?",
+  "options": [
+    {
+      "value": "A",
+      "text": "Công đoạn đóng bọ, yêu cầu đống 2 con, nhưng công nhân đóng 3 con cho chắc",
+      "isCorrect": true,
+      "_id": {
+        "$oid": "660ccc736096c470d6f47d63"
+      }
+    },
+    {
+      "value": "B",
+      "text": "Di chuyển giữ 2 công đoạn",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "660ccc736096c470d6f47d64"
+      }
+    },
+    {
+      "value": "C",
+      "text": "Vận chuyển hàng từ cắt lên may",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "660ccc736096c470d6f47d65"
+      }
+    },
+    {
+      "value": "D",
+      "text": "Cả 3 câu trên đều đúng",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "660ccc736096c470d6f47d66"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "660ccc806096c470d6f47d68"
+  },
+  "id": 7,
+  "points":1,
+  "text": "Câu 7: Lãng phí nào sao đây là lãng phí chờ đợi",
+  "options": [
+    {
+      "value": "A",
+      "text": "Công nhân đợi bảo trì sửa máy",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "660ccc806096c470d6f47d69"
+      }
+    },
+    {
+      "value": "B",
+      "text": "Công nhân ở công đoạn sau đợi công đoạn trước",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "660ccc806096c470d6f47d6a"
+      }
+    },
+    {
+      "value": "C",
+      "text": "Cả A và B đều đúng",
+      "isCorrect": true,
+      "_id": {
+        "$oid": "660ccc806096c470d6f47d6b"
+      }
+    },
+    {
+      "value": "D",
+      "text": "Cả A và B đều sai",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "660ccc806096c470d6f47d6c"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "660ccc8b6096c470d6f47d6e"
+  },
+  "id": 8,
+  "points":1,
+  "text": "Câu 8: Cách để loại bỏ lãng phí hàng tồn ?",
+  "options": [
+    {
+      "value": "A",
+      "text": "Thực hiện tốt việc cân bằng chuyền",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "660ccc8b6096c470d6f47d6f"
+      }
+    },
+    {
+      "value": "B",
+      "text": "Sản xuất theo đúng yêu cầu của khách hàng (người công đoạn trước cung cấp đúng nhu cầu của công đoạn sau)",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "660ccc8b6096c470d6f47d70"
+      }
+    },
+    {
+      "value": "C",
+      "text": "Cả A và B đều sai",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "660ccc8b6096c470d6f47d71"
+      }
+    },
+    {
+      "value": "D",
+      "text": "Cả A và B đều đúng",
+      "isCorrect": true,
+      "_id": {
+        "$oid": "660ccc8b6096c470d6f47d72"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "660ccc926096c470d6f47d74"
+  },
+  "id": 9,
+  "points":1,
+  "text": "Câu 9: Công nhân phải ném hàng qua lại giữa 2 công đoạn là lãng phí gì?",
+  "options": [
+    {
+      "value": "A",
+      "text": "Di chuyển",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "660ccc926096c470d6f47d75"
+      }
+    },
+    {
+      "value": "B",
+      "text": "Vận chuyển",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "660ccc926096c470d6f47d76"
+      }
+    },
+    {
+      "value": "C",
+      "text": "Thao tác thừa",
+      "isCorrect": true,
+      "_id": {
+        "$oid": "660ccc926096c470d6f47d77"
+      }
+    },
+    {
+      "value": "D",
+      "text": "Công đoạn thừa",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "660ccc926096c470d6f47d78"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "660ccc996096c470d6f47d7a"
+  },
+  "id": 10,
+  "points":1,
+  "text": "Câu 10: Chọn đáp án đúng về 7 loại lãng phí",
+  "options": [
+    {
+      "value": "A",
+      "text": "Thao tác thừa, sản xuất thừa, hàng tồn, di chuyển, vận chuyển, chờ đợi,hàng lỗi",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "660ccc996096c470d6f47d7b"
+      }
+    },
+    {
+      "value": "B",
+      "text": "Thao tác thừa, sản xuất thừa, công đoạn thừa,hàng tồn, vận chuyển, chờ đợi, hàng lỗi",
+      "isCorrect": true,
+      "_id": {
+        "$oid": "660ccc996096c470d6f47d7c"
+      }
+    },
+    {
+      "value": "C",
+      "text": "Thao tác thừa lãng phí điện, công đoạn thừa, hàng tồn, vẫn chuyển, chờ đợi, hàng lôi",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "660ccc996096c470d6f47d7d"
+      }
+    },
+    {
+      "value": "D",
+      "text": "Cả 3 câu trên đều đúng",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "660ccc996096c470d6f47d7e"
+      }
+    }
+  ],
+  "__v": 0
+}]

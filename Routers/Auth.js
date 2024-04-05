@@ -10,6 +10,6 @@ router.post("/register", authController.registerUser);
 // GET Log In - Send All users Data to client
 router.post("/login", authController.login);
 
-router.post("/api/data", bai1Controller.createData);
+
 
 module.exports = router;
