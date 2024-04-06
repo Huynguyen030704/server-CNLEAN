@@ -37,3 +37,12 @@ exports.createData = async (req, res) => {
     res.status(500).send("Error saving data");
   }
 };
+
+exports.renderData = async (req, res) => {
+  try {
+    const results = await bai1.find();
+    res.status(200).json(results);
+  } catch (error) {
+    res.status(500).json({ error: "Error fetching results" });
+  }
+};
