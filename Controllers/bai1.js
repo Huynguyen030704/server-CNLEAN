@@ -24,35 +24,11 @@ exports.Question = async (req, res) => {
 };
 
 exports.createData = async (req, res) => {
-  // try {
-  //   const { name, results } = req.body;
-  //   // Calculate total score
-  //   const totalScore = results.reduce(
-  //     (acc, result) => acc + (result.isCorrect ? 1 : 0),
-  //     0
-  //   );
-  //   // Save score to the database
-  //   const result = new bai1({
-  //     name: name,
-  //     score: totalScore,
-  //     answers: results,
-  //   });
-  //   await result.save();
-  //   res
-  //     .status(201)
-  //     .json({ message: "Result submitted successfully", score: totalScore });
-  // } catch (error) {
-  //   res.status(500).json({ error: error.message });
-  // }
-  const { name, selectedAnswers } = req.body;
+
+  const { name, selectedAnswers, score } = req.body;
   console.log(selectedAnswers);
   try {
-    // Calculate total score
-    // const totalScore = results.reduce(
-    //   (acc, result) => acc + (result.isCorrect ? 1 : 0),
-    //   0
-    // );
-    const newData = new bai1({ name, selectedAnswers });
+    const newData = new bai1({ name, selectedAnswers, score });
     const savedData = await newData.save();
     console.log(savedData);
     res.status(201).json(savedData);
