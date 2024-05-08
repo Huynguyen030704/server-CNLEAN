@@ -1,4 +1,3 @@
-
 // controllers/dataController.js
 const bai1 = require("../Models/Bai1/bai1Data");
 const Question = require("../Models/Bai1/Cauhoi1");
@@ -24,7 +23,6 @@ exports.Question = async (req, res) => {
 };
 
 exports.createData = async (req, res) => {
-
   const { name, selectedAnswers, score } = req.body;
   console.log(selectedAnswers);
   try {
