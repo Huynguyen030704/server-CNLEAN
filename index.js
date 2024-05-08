@@ -1,30 +1,23 @@
-const express = require("express");
-const mongoose = require("mongoose");
 const cors = require("cors");
-const bodyParser = require("body-parser");
-const userRouter = require("./Routers/user");
+const express = require("express");
 require("dotenv").config();
+const bai1Router = require("./Routers/bai1");
+const bai2Router = require("./Routers/bai2");
+const authRouter = require("./Routers/Auth");
+
+let connectDB = require("./connectMongo");
 
 const app = express();
-
-// Sử dụng CORS middleware
-app.use(cors());
-app.use(bodyParser.json());
-app.use(userRouter);
-// Middleware để nhận dữ liệu từ React
 app.use(express.json());
+app.use(cors());
 
-// app.get('*',function(req,res){
-//     res.sendFile(__dirname + '/public/views/index.html');
-// });   // * means any route.
+app.use(bai1Router);
+app.use(bai2Router);
+app.use(authRouter);
 
+const PORT = process.env.PORT;
 
-
-mongoose
-  .connect(process.env.MONGODB)
-  .then(() => {
-    console.log("Connected to MongoDB");
-    app.listen(process.env.PORT);
-    console.log("http://localhost:" + process.env.PORT);
-  })
-  .catch((err) => console.error("Failed to connect to MongoDB:", err));
+app.listen(PORT, () => {
+  connectDB();
+  console.log("Server is running on port " + PORT);
+});
